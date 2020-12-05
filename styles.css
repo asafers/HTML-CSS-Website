@@ -1,0 +1,342 @@
+/*Universal Styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 16px;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+content {
+    background-color: #f5f5f5;
+
+}
+
+h1 {
+    font-family:'Work Sans', Sans-Serif;
+    Font-Size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Work Sans', Sans-Serif;
+    Font-Size: 32px;
+    text-transform: uppercase; 
+}
+
+h3 {
+    Font-Size: 24px;
+}
+
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*Header styles*/
+
+
+
+
+.header-top {
+    background-color:black;
+    border-bottom: 3px solid black ;
+    width: 100%;
+    height: 4em;
+    position: fixed;
+    z-index: 1;
+    padding: 10px 0;
+    align-content: center;
+}
+
+.header-top .justify {
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto 0;
+    align-items: center;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+li {
+    display: inline-block;
+    margin: 1em;
+}
+
+ul img {
+    height: 1.5em;
+    width: 1.5em;
+    color: white;
+
+}
+
+.nav-points {
+    font-size: 1.5em;
+}
+
+.nav-points a {
+    color: white;
+    margin: 0.8em;
+}
+
+.header-bot {
+    width: 100%;
+    align-items: center;
+    background-color: #ffae20;
+    border-bottom: 3px solid black;
+    padding-top: 5em;
+}
+
+.header-bot img {
+    margin-right: 2em;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.header-bot h1 {
+    line-height: 1.2em;
+}
+
+.header-bot h1::after {
+    margin-top: 10px;
+    margin-bottom: 0;
+    content: '';
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: black;
+}
+
+/*Splash image & mission*/
+ 
+
+/*
+.mission {
+    background-image: url(./resources/missionimage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    margin-top: 18rem;
+
+    
+}
+
+.mission-container {
+    background-color: #ffae20;
+    color: #f5f5f5;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+*/
+
+.jumbotron {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 70px 0;
+
+  }
+  
+  .jumbotron h2 {
+    font-family: 'Cormorant Garamond', Serif;
+    font-size: 80px;
+    text-transform: none;
+  }
+  
+  .jumbotron h2 span {
+    color:#ff9900;
+  }
+
+/*Product Tasting*/
+
+
+#tastings .top-background {
+    height: 365px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(./resources/aboutbackground.jpg);
+    background-repeat: no-repeat;
+}
+
+#tastings .bottom {
+    background-color: #ffae20;
+    width: 100%;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.bottom h2 {
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.bottom h2::after {
+    margin-top: 20px;
+    margin-bottom: 0;
+    content: '';
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: black;
+}
+
+.tastings {
+    align-content: center;
+    margin: 0;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+
+.whisky {
+    max-width: 300px;
+    text-align: center;
+    margin: 40px;
+    align-content: baseline;
+}
+
+.tastings img {
+    height: auto;
+    display: block;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.tastings figcaption {
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 200px;
+  }
+
+/*About*/
+
+
+#about {
+    background-image: url(./resources/tastingsimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 50px;
+    max-width: 100%;
+
+}
+
+
+#about h2 {
+    color: #f5f5f5;
+    padding-left: 20px;
+}
+
+#about h2::after {
+    margin-top: 20px;
+    margin-bottom: 0;
+    content: '';
+    display: block;
+    width: 166px;
+    height: 3px;
+    background-color: #f5f5f5;
+}
+
+.me {
+    align-content: center;
+    padding: 0;
+}
+
+.imgandcaption-container {
+    text-align: center;
+    margin: 50px;
+    border: 8px solid #ffae20;
+    padding: 70px 100px;
+}
+
+.me img {
+    border-radius: 300px;
+    max-width: 500px;
+    height: auto;
+    display: block;
+}
+
+.me figcaption {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    margin: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+    background-color:black;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+  }
+
+footer h3 {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 980px) {
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .nav-points {
+        font-size: 2rem;
+    }
+
+    .whisky figcaption {
+        font-size: 2rem;
+        align-content: center;
+    }
+
+    .jumbotron {
+        width: 700px;
+    }
+
+    .jumbotron h2 {
+        font-size: 3.5rem;
+    }
+
+    footer h3 {
+        font-size: 2rem;
+    }
+
+}
